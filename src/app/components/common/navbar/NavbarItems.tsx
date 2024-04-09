@@ -46,7 +46,7 @@ const NavbarItems = ({ showNavbar }: any) => {
         </div>
       ) : (
         <div className="w-[20rem] h-screen border bg-white px-10 py-5 ">
-          <div className="flex flex-col items-center space-y-5 font-semibold  ">
+          <div className="flex flex-col items-center place-content-center space-y-5 font-semibold  ">
             {nav_links?.map((items, index) => (
               <div key={index}>
                 <Link
