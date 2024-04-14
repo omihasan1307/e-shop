@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toast-message {
+  background: rgba(55, 100, 199, 0.2) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1.2px solid rgba(55, 100, 199, 0.1) !important;
+  border-radius: 15px !important;
+
+  color: #5a0ac4 !important;
+  font-weight: 600 !important;
+
+  font-size: 0.9rem !important;
+  padding: 20px 20px !important;
+}
+.toastProgress {
+  background: #b8afc4 !important;
+}
+
+.toast-icon {
+  font-size: 1.3rem !important;
+  padding: auto 20px !important;
+}
