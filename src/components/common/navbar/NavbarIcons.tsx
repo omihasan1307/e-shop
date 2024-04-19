@@ -74,7 +74,7 @@ const NavbarIcons = () => {
       </button>
       {showLogin && (
         <div className="border py-2 rounded-lg text-center w-24 absolute lg:right-80 bg-white">
-          <Link href={"/login"}>Login</Link>
+          <Link href={"/auth"}>Login</Link>
         </div>
       )}
       {showSidebar && (

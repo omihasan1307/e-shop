@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import LoginPage from "./Login";
 
 export const metadata: Metadata = {
   title: "Login / E-Shop",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 const Login = () => {
   return (
     <div>
-      <h1>sss</h1>
+    <LoginPage/>
     </div>
   );
 };
